@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "HCCSNE — High Council of the National Scientific Community Abroad",
+    "description": "Official portal of the High Council under the President of the Republic"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Missions",
+    "news": "News",
+    "members": "Members",
+    "domains": "Strategic Domains",
+    "contact": "Contact",
+    "login": "Sign In",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "logout": "Sign Out",
+    "myProfile": "My Profile",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Under the Auspices of the President of the Republic",
+    "title": "High Council of the National Scientific Community Abroad",
+    "subtitle": "Mobilizing the elite of the Algerian scientific diaspora to drive sovereign national development and the knowledge-based economy.",
+    "cta1": "Explore Missions",
+    "cta2": "Collaborative Portal",
+    "decree": "Presidential Decree No. 26-293 of September 7, 2026"
+  },
+  "stats": {
+    "members": "Council Members",
+    "domains": "Strategic Poles",
+    "countries": "Diaspora Countries",
+    "ministries": "Partner Ministries"
+  },
+  "newsSection": {
+    "badge": "Presidency & Official Affairs",
+    "title": "High Council Official News",
+    "subtitle": "Coverage of presidential hearings, plenary sessions, and strategic advisories",
+    "viewRelease": "View Official Release",
+    "items": [
+      {
+        "id": 1,
+        "tag": "Official Inauguration",
+        "date": "September 7, 2026",
+        "title": "Solemn installation of High Council members by President Abdelmadjid Tebboune",
+        "summary": "At El Mouradia Palace, President Abdelmadjid Tebboune presided over the solemn inauguration ceremony of the HCCSNE under the leadership of Prof. Elias Zerhouni, establishing an enduring pact of excellence between the Nation and its world-class scientific diaspora.",
+        "location": "El Mouradia Palace, Algiers",
+        "image": "/images/installation-tebboune-hccsne.jpg",
+        "fullContent": "Under Presidential Decree No. 26-293 establishing the High Council of the National Scientific Community Abroad (HCCSNE), President of the Republic Abdelmadjid Tebboune solemnly inaugurated the supreme consultative council at El Mouradia Palace.\n\nComprising 39 distinguished Algerian scientists and engineering leaders spanning 10 sovereign technology clusters, the High Council is coordinated by Prof. Elias Zerhouni, former Director of the US National Institutes of Health (NIH).\n\nDuring this historic audience, the Head of State reaffirmed Algeria's resolute political commitment to leverage the exceptional talent of its expatriate scholars to drive forward strategic national priorities: sovereign artificial intelligence, energy transition, coastal seawater desalination, food security, and advanced biomedical research.\n\nProf. Elias Zerhouni, speaking on behalf of all council members, expressed their deep pride and dedication to serving the homeland and establishing durable academic bridges with Algerian universities and research institutes."
+      },
+      {
+        "id": 2,
+        "tag": "Presidential Decree",
+        "date": "September 14, 2026",
+        "title": "High Council of the Scientific Community Abroad: Promulgation of Presidential Decree No. 26-293",
+        "summary": "Official gazette publication of Presidential Decree No. 26-293 establishing the responsibilities, organization, and sovereign mission of the supreme consultative council placed directly under the President of the Republic.",
+        "location": "Official Gazette, Algiers",
+        "image": "/images/tdm-decret-presidence.jpg",
+        "fullContent": "Official publication in the Official Gazette of the People's Democratic Republic of Algeria of Presidential Decree No. 26-293 establishing the High Council of the National Scientific Community Abroad (HCCSNE).\n\nPlaced directly under the high authority of the President of the Republic, this supreme consultative body mobilizes diaspora elite talent to provide independent strategic counsel on national sovereign projects: artificial intelligence, water security, green transition, advanced materials, and health."
+      },
+      {
+        "id": 3,
+        "tag": "Work Commissions",
+        "date": "September 28, 2026",
+        "title": "Activation of the 10 sovereign task commissions and reception of the entire council delegation",
+        "summary": "Deployment of the 10 work commissions bringing together all council members and scientists received in solemn audience at El Mouradia Palace.",
+        "location": "El Mouradia Palace, Algiers",
+        "image": "/images/audience-membres-tebboune.jpg",
+        "fullContent": "Full operational deployment of the 10 sovereign task commissions bringing together the entire delegation of scientific members under designated Group Leaders. Each commission benefits from an encrypted sovereign digital chamber to review high-priority national infrastructure dossiers."
+      },
+      {
+        "id": 4,
+        "tag": "APS Plenary Session",
+        "date": "October 10, 2026",
+        "title": "Consultative plenary session and 2026-2030 roadmap chaired by Prof. Elias Zerhouni",
+        "summary": "Consensual adoption by council members of the 2026-2030 strategic roadmap prioritizing sovereign computing, seawater desalination, and green hydrogen infrastructure.",
+        "location": "Algiers, Council Headquarters",
+        "image": "/images/aps-conseil-decret.jpg",
+        "fullContent": "Under the chairmanship of Prof. Elias Zerhouni, the High Council held its consultative plenary session at national headquarters in Algiers. Group Leaders delivered sector diagnostic reports and validated the quadrennial consultative program submitted to the Presidency of the Republic."
+      }
+    ]
+  },
+  "missions": {
+    "title": "Strategic Sovereign Missions",
+    "subtitle": "Dedicated exclusively to national development and technological sovereignty",
+    "items": [
+      {
+        "id": "counsel",
+        "num": "01",
+        "tag": "Strategic Counsel",
+        "title": "Strategic Counsel & Expertise",
+        "shortDesc": "Independent scientific advisory reporting directly to the President of the Republic.",
+        "fullDesc": "Informing top-level state decision-making through rigorous consultative advisory, technology impact assessments, and independent expert audits on sovereign infrastructure and industrial development.",
+        "highlights": [
+          "Direct scientific advisories submitted to the President of the Republic",
+          "Strategic support to the 6 primary government ministries",
+          "International-standard technical feasibility audits"
+        ],
+        "legalRef": "Article 4 of Presidential Decree No. 26-293",
+        "statLabel": "Executive Recipient",
+        "statValue": "Presidency of the Republic"
+      },
+      {
+        "id": "watch",
+        "num": "02",
+        "tag": "Technology Watch",
+        "title": "Technology Watch & Transfer",
+        "shortDesc": "Anticipating scientific breakthroughs and accelerating sovereign technology transfer.",
+        "fullDesc": "Real-time tracking of global technology disruptions (generative AI, solid-state batteries, green hydrogen, precision biotech) and orchestrating transfer directly to Algerian universities, labs, and engineering hubs.",
+        "highlights": [
+          "Permanent prospective technology intelligence & synthesis reports",
+          "Global R&D partnerships (MIT, EPFL, Pasteur, CNRS)",
+          "Accelerated industrialization of national patents"
+        ],
+        "legalRef": "Article 5 of Presidential Decree No. 26-293",
+        "statLabel": "Partner Ecosystem",
+        "statValue": "Global R&D Hubs"
+      },
+      {
+        "id": "network",
+        "num": "03",
+        "tag": "Networking",
+        "title": "Networking & Diaspora Synergy",
+        "shortDesc": "Mobilizing high-level Algerian diaspora competencies worldwide.",
+        "fullDesc": "Federating exceptional scientific and entrepreneurial Algerian talents established in global innovation ecosystems. Seamlessly linking them with national universities, tech startups, and industrial corporations.",
+        "highlights": [
+          "HCCSNE interconnected collaborative digital platform",
+          "10 interactive task commissions chaired by designated leaders",
+          "National doctoral mentorship and executive lecture programs"
+        ],
+        "legalRef": "Article 6 of Presidential Decree No. 26-293",
+        "statLabel": "Architecture",
+        "statValue": "10 Specialized Commissions"
+      },
+      {
+        "id": "evaluation",
+        "num": "04",
+        "tag": "Evaluation & Foresight",
+        "title": "National Evaluation & Foresight",
+        "shortDesc": "Methodical evaluation and technological master roadmap for Algeria.",
+        "fullDesc": "Measuring technology readiness levels (TRL) of national initiatives, evaluating socioeconomic impacts of research, and designing multi-year investment roadmaps in the knowledge economy.",
+        "highlights": [
+          "Impact indicators and international performance benchmarking",
+          "Technological master roadmaps towards 2030 and 2035",
+          "Support for global international accreditation of university curricula"
+        ],
+        "legalRef": "Article 7 of Presidential Decree No. 26-293",
+        "statLabel": "Strategic Horizon",
+        "statValue": "Horizon 2030 — 2035"
+      }
+    ]
+  },
+  "membersSection": {
+    "title": "Council Assembly",
+    "subtitle": "Eminent Figures of the Algerian Scientific Diaspora",
+    "coordinator": "General Coordinator",
+    "leader": "Commission Leader",
+    "scientific": "Scientific Member",
+    "viewAll": "View all 39 members directory",
+    "searchPlaceholder": "Search by Prof., Dr., name, discipline, country, institution...",
+    "spotlightBadge": "Spotlight Member",
+    "selectFromDelegation": "Select a council member from the delegation:"
+  },
+  "domains": {
+    "title": "Technological Excellence Centers",
+    "subtitle": "10 Strategic Domains for National Sovereignty",
+    "hubLabel": "National Center of Sovereignty",
+    "commissionPrefix": "Strategic Commission No.",
+    "chairedBy": "Chaired by:",
+    "priorities": "Strategic Priorities & Flagship Projects:",
+    "enterRoom": "Enter Collaborative Room →",
+    "sovereignSpace": "Sovereign Workspace No."
+  },
+  "footer": {
+    "copyright": "© 2026 HCCSNE — People’s Democratic Republic of Algeria",
+    "address": "Headquarters: Algiers, Algeria",
+    "description": "Advisory body reporting to the President of the Republic.",
+    "quickLinks": "Quick Links"
+  },
+  "auth": {
+    "loginTitle": "Sign in to Members Area",
+    "email": "Email Address",
+    "password": "Password",
+    "loginBtn": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "No account?",
+    "registerHere": "Request access"
+  },
+  "common": {
+    "readMore": "Read more",
+    "search": "Search",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "prev": "Previous",
+    "next": "Next"
+  }
+}

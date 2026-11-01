@@ -1,0 +1,274 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./hccsne.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/prisma-client-v3"
+}
+
+model User {
+  id                Int       @id @default(autoincrement())
+  email             String    @unique
+  password          String
+  nom               String
+  prenom            String
+  photo             String?
+  specialite        String?
+  institution       String?
+  pays              String?
+  bio               String?
+  phone             String?
+  role              String    @default("PENDING")
+  active            Boolean   @default(false)
+  diplome               String?
+  universite            String?
+  anneeDiplome          String?
+  exploitsAcademiques   String?
+  carrieres             String?
+  scholarUrl            String?
+  orcidUrl              String?
+  cvUrl                   String?
+  cvFilename               String?
+  lettreMotivationUrl     String?
+  lettreMotivationFilename String?
+  diplomesDocuments       String?
+  profilComplet         Boolean   @default(false)
+  pourcentageCompletion Int       @default(0)
+  verificationToken String?
+  resetToken        String?
+  resetExpires      DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  messages          Message[]
+  documents         Document[]
+  forumPosts        ForumPost[]
+  forumReplies      ForumReply[]
+  wikiEdits         WikiEdit[]
+  roomMembers       RoomMember[]
+  notifications     Notification[]
+  visioOrganized    VisioSession[] @relation("organizer")
+  visioJoined       VisioParticipant[]
+  projectsCreated   Project[]          @relation("ProjectCreator")
+  projectsLead      Project[]          @relation("ProjectLeader")
+  projectDocuments  ProjectDocument[]
+}
+
+model Room {
+  id          Int          @id @default(autoincrement())
+  name        String
+  description String?
+  isPrivate   Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  members     RoomMember[]
+  messages    Message[]
+  documents   Document[]
+  forumPosts  ForumPost[]
+  wikiPages   WikiPage[]
+  sessions    VisioSession[]
+  projects    Project[]
+}
+
+model RoomMember {
+  id       Int      @id @default(autoincrement())
+  userId   Int
+  roomId   Int
+  role     String   @default("MEMBER")
+  user     User     @relation(fields: [userId], references: [id])
+  room     Room     @relation(fields: [roomId], references: [id])
+  joinedAt DateTime @default(now())
+  @@unique([userId, roomId])
+}
+
+model Message {
+  id          Int      @id @default(autoincrement())
+  content     String
+  userId      Int
+  roomId      Int?
+  recipientId Int?
+  lu          Boolean  @default(false)
+  user        User     @relation(fields: [userId], references: [id])
+  room        Room?    @relation(fields: [roomId], references: [id])
+  createdAt   DateTime @default(now())
+}
+
+model Document {
+  id        Int      @id @default(autoincrement())
+  title     String
+  filename  String
+  filepath  String
+  mimetype  String
+  size      Int
+  userId    Int
+  roomId    Int?
+  user      User     @relation(fields: [userId], references: [id])
+  room      Room?    @relation(fields: [roomId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model ForumPost {
+  id        Int          @id @default(autoincrement())
+  title     String
+  content   String
+  userId    Int
+  roomId    Int?
+  pinned    Boolean      @default(false)
+  user      User         @relation(fields: [userId], references: [id])
+  room      Room?        @relation(fields: [roomId], references: [id])
+  replies   ForumReply[]
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+}
+
+model ForumReply {
+  id        Int       @id @default(autoincrement())
+  content   String
+  userId    Int
+  postId    Int
+  user      User      @relation(fields: [userId], references: [id])
+  post      ForumPost @relation(fields: [postId], references: [id])
+  createdAt DateTime  @default(now())
+}
+
+model WikiPage {
+  id        Int        @id @default(autoincrement())
+  title     String
+  slug      String     @unique
+  content   String
+  roomId    Int?
+  room      Room?      @relation(fields: [roomId], references: [id])
+  edits     WikiEdit[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model WikiEdit {
+  id        Int      @id @default(autoincrement())
+  content   String
+  userId    Int
+  pageId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  page      WikiPage @relation(fields: [pageId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model VisioSession {
+  id           Int                @id @default(autoincrement())
+  title        String
+  description  String?
+  jitsiRoom    String             @unique
+  scheduledAt  DateTime?
+  duration     Int?
+  status       String             @default("PLANNED")
+  organizerId  Int
+  roomId       Int?
+  organizer    User               @relation("organizer", fields: [organizerId], references: [id])
+  room         Room?              @relation(fields: [roomId], references: [id])
+  participants VisioParticipant[]
+  createdAt    DateTime           @default(now())
+}
+
+model VisioParticipant {
+  id        Int          @id @default(autoincrement())
+  userId    Int
+  sessionId Int
+  user      User         @relation(fields: [userId], references: [id])
+  session   VisioSession @relation(fields: [sessionId], references: [id])
+  joinedAt  DateTime?
+  @@unique([userId, sessionId])
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  type      String
+  titre     String
+  contenu   String?
+  message   String
+  lu        Boolean  @default(false)
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  link      String?
+  createdAt DateTime @default(now())
+}
+
+model Announcement {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
+  priority  String   @default("NORMAL")
+  createdAt DateTime @default(now())
+}
+
+model Project {
+  id                    Int       @id @default(autoincrement())
+  code                  String    @unique
+  titre                 String
+  specialite            String
+  roomId                Int?
+  leaderId              Int?
+  createdById           Int
+  
+  statut                String    @default("IDEATION") // "IDEATION", "TDR_EN_COURS", "VALIDATION_CONSEIL", "ACCORD_TUTELLE", "APPEL_OFFRES", "EN_REALISATION", "FINALISE"
+  avancement            Int       @default(15)
+  priorite              String    @default("STRATEGIQUE") // "STRATEGIQUE", "URGENT", "STRUCTURANT"
+
+  // 1. Cadrage & TDR
+  objectifs             String?
+  tdrTexte              String?
+  tdrFichierUrl         String?
+  tdrFichierNom         String?
+  impactSouverainete    String?
+
+  // 2. Consortium & Parties Prenantes
+  universitesAlge       String?
+  universitesEtrang     String?
+  entreprisesAlge       String?
+  entreprisesEtrang     String?
+  ministeresTutelle     String?
+
+  // 3. Marché, Économie & Passation
+  modeleEconomique      String?
+  typePassation         String?
+  impactEconomique      String?
+
+  // 4. Budget & Délais
+  budgetDZD             Float?    @default(0)
+  budgetDevises         Float?    @default(0)
+  devise                String?   @default("EUR")
+  sourcesFinancement    String?
+  dateDebut             DateTime?
+  dateFin               DateTime?
+  dureeMois             Int?
+
+  // 5. Checklist des Jalons (JSON array)
+  jalons                String?
+
+  // 6. Arbitrage & Validation de la Coordination Générale (Exclusif Coordinateur)
+  avisCoordinateur             String?
+  statutValidationCoordinateur String?   @default("EN_ATTENTE")
+  dateValidationCoordinateur   DateTime?
+
+  // Relations
+  createdBy             User      @relation("ProjectCreator", fields: [createdById], references: [id])
+  leader                User?     @relation("ProjectLeader", fields: [leaderId], references: [id])
+  room                  Room?     @relation(fields: [roomId], references: [id])
+  documents             ProjectDocument[]
+
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+}
+
+model ProjectDocument {
+  id           Int      @id @default(autoincrement())
+  projectId    Int
+  title        String
+  filename     String
+  fileUrl      String
+  type         String   @default("AUTRE")
+  uploadedById Int
+  uploadedBy   User     @relation(fields: [uploadedById], references: [id])
+  project      Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+}
+

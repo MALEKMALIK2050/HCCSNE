@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "HCCSNE — Haut Conseil de la Communauté Scientifique Nationale à l’Étranger",
+    "description": "Portail officiel du Haut Conseil placé auprès du Président de la République"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Missions",
+    "news": "Actualités",
+    "members": "Membres",
+    "domains": "Domaines Stratégiques",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "Inscription",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "myProfile": "Mon profil",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "Placé auprès de Monsieur le Président de la République",
+    "title": "Haut Conseil de la Communauté Scientifique Nationale à l’Étranger",
+    "subtitle": "Mobiliser l’élite de la diaspora scientifique algérienne au service du développement national, des grands projets souverains et de l’économie de la connaissance.",
+    "cta1": "Découvrir les Missions",
+    "cta2": "Espace Collaboratif",
+    "decree": "Décret présidentiel n° 26-293 du 7 septembre 2026"
+  },
+  "stats": {
+    "members": "Membres du Conseil",
+    "domains": "Pôles Stratégiques",
+    "countries": "Pays de la Diaspora",
+    "ministries": "Ministères Associés"
+  },
+  "newsSection": {
+    "badge": "Présidence & Activités Officielles",
+    "title": "Actualités du Haut Conseil",
+    "subtitle": "Suivi des audiences présidentielles, séances plénières et avis consultatifs stratégiques",
+    "viewRelease": "Consulter le communiqué",
+    "items": [
+      {
+        "id": 1,
+        "tag": "Installation Officielle",
+        "date": "7 Septembre 2026",
+        "title": "Installation solennelle des membres du Haut Conseil par Monsieur le Président de la République",
+        "summary": "Au Palais d’El Mouradia, Monsieur le Président de la République Abdelmadjid Tebboune a présidé la cérémonie officielle d’installation des membres du HCCSNE sous la coordination du Pr. Elias Zerhouni, scellant un pacte souverain d’excellence entre la Nation et son élite scientifique établie à l’étranger.",
+        "location": "Palais d’El Mouradia, Alger",
+        "image": "/images/installation-tebboune-hccsne.jpg",
+        "fullContent": "Dans le cadre de la mise en œuvre du Décret présidentiel n° 26-293 portant création du Haut Conseil de la Communauté Scientifique Nationale à l'Étranger (HCCSNE), Monsieur le Président de la République, Abdelmadjid Tebboune, a présidé au Palais d'El Mouradia la cérémonie solennelle d'installation de cet organe consultatif suprême placé directement auprès de la Présidence de la République.\n\nComposé de 39 personnalités scientifiques d'envergure mondiale réparties sur 10 pôles technologiques prioritaires, le Haut Conseil est coordonné par l'éminent Pr. Elias Zerhouni, ancien directeur des Instituts Nationaux de la Santé (NIH) aux États-Unis.\n\nLors de cette audience historique, le Chef de l'État a réaffirmé la volonté politique inébranlable de la Nation de mobiliser le potentiel exceptionnel de sa diaspora hautement qualifiée au service des grands choix stratégiques de l'Algérie : intelligence artificielle, transition énergétique, sécurité hydrique par le dessalement de l'eau de mer, souveraineté alimentaire et recherche biomédicale avancée.\n\nLe Pr. Elias Zerhouni a exprimé au nom de l'ensemble des membres leur fierté et leur dévouement absolu à mettre leur savoir-faire au service de la patrie et à bâtir des passerelles pérennes avec les universités et les centres de recherche nationaux."
+      },
+      {
+        "id": 2,
+        "tag": "Décret Présidentiel",
+        "date": "14 Septembre 2026",
+        "title": "Haut Conseil de la communauté scientifique nationale à l’étranger : Publication du décret présidentiel n° 26-293",
+        "summary": "Publication officielle au Journal officiel n° 66 du Décret présidentiel fixant les missions, l'organisation et le rôle de l'instance consultative suprême placée directement auprès de Monsieur le Président de la République.",
+        "location": "Journal Officiel, Alger",
+        "image": "/images/tdm-decret-presidence.jpg",
+        "fullContent": "Publication officielle au Journal officiel de la République Algérienne Démocratique et Populaire du Décret présidentiel n° 26-293 portant création, attributions, composition et fonctionnement du Haut Conseil de la Communauté Scientifique Nationale à l'Étranger (HCCSNE).\n\nPlacé directement sous l'autorité de Monsieur le Président de la République, cet organe consultatif suprême doté de la personnalité morale et de l'autonomie financière a pour mission d'éclairer la décision publique sur les choix technologiques majeurs, de mobiliser le vivier d'exception de la diaspora et de garantir la souveraineté scientifique de la Nation dans les secteurs d'avenir (intelligence artificielle, sécurité hydrique, transition énergétique, nanomatériaux, sécurité alimentaire et biotechnologies)."
+      },
+      {
+        "id": 3,
+        "tag": "Commissions Métiers",
+        "date": "28 Septembre 2026",
+        "title": "Activation des 10 commissions souveraines et réunion de l'ensemble des membres",
+        "summary": "Déploiement des 10 commissions de travail réunissant l'ensemble des membres et scientifiques de la diaspora reçus en audience solennelle au Palais d'El Mouradia.",
+        "location": "Palais d’El Mouradia, Alger",
+        "image": "/images/audience-membres-tebboune.jpg",
+        "fullContent": "Déploiement opérationnel des 10 commissions de travail souveraines du HCCSNE réunissant l'ensemble des membres et personnalités scientifiques sous la houlette des chefs de groupe désignés. Chaque commission dispose d'une chambre collaborative souveraine dédiée pour instruire les dossiers stratégiques de la Nation."
+      },
+      {
+        "id": 4,
+        "tag": "Session Plénière APS",
+        "date": "10 Octobre 2026",
+        "title": "Séance consultative plénière et feuille de route 2026-2030 sous la présidence du Pr. Elias Zerhouni",
+        "summary": "Adoption consensuelle par le collège des membres de la feuille de route 2026-2030 axée sur l'intelligence artificielle souveraine, le dessalement d'eau de mer et l'hydrogène vert.",
+        "location": "Alger, Siège du Conseil",
+        "image": "/images/aps-conseil-decret.jpg",
+        "fullContent": "Sous la présidence du Pr. Elias Zerhouni, le Haut Conseil a tenu sa séance consultative plénière au siège national à Alger. Les chefs de groupes ont présenté les diagnostics sectoriels préliminaires et validé la programmation quadriennale des avis consultatifs destinés à la Présidence de la République."
+      }
+    ]
+  },
+  "missions": {
+    "title": "Nos Missions Stratégiques",
+    "subtitle": "Au service exclusif du développement et de la souveraineté technologique de la Nation",
+    "items": [
+      {
+        "id": "counsel",
+        "num": "01",
+        "tag": "Conseil Stratégique",
+        "title": "Counsel & Expertise Stratégique",
+        "shortDesc": "Avis scientifiques indépendants placés directement auprès de la Présidence de la République.",
+        "fullDesc": "Éclairer la décision publique au plus haut niveau de l’État par des avis consultatifs rigoureux, des études d’impact technologique et des audits d’experts indépendants sur les grands projets d’infrastructure, de souveraineté et de développement industriel de la Nation.",
+        "highlights": [
+          "Avis scientifiques directs remis au Président de la République",
+          "Appui stratégique aux 6 départements ministériels clés",
+          "Audits de faisabilité technique selon les standards internationaux"
+        ],
+        "legalRef": "Article 4 du Décret présidentiel n° 26-293",
+        "statLabel": "Destinataire Exécutif",
+        "statValue": "Présidence de la République"
+      },
+      {
+        "id": "watch",
+        "num": "02",
+        "tag": "Veille Technologique",
+        "title": "Technology Watch & Transfert",
+        "shortDesc": "Anticipation des ruptures scientifiques et transfert accéléré de compétences.",
+        "fullDesc": "Traquer en temps réel les ruptures technologiques mondiales (IA générative, batteries solides, hydrogène vert, biotechnologies de précision) et orchestrer le transfert direct de technologies critiques vers les universités, laboratoires et pôles d’ingénierie algériens.",
+        "highlights": [
+          "Veille technologique prospective permanente et rapports de synthèse",
+          "Partenariats de R&D avec les grands centres mondiaux (MIT, EPFL, Pasteur, CNRS)",
+          "Accélération de l’industrialisation des brevets nationaux"
+        ],
+        "legalRef": "Article 5 du Décret présidentiel n° 26-293",
+        "statLabel": "Réseau Partenaire",
+        "statValue": "Centres Mondiaux R&D"
+      },
+      {
+        "id": "network",
+        "num": "03",
+        "tag": "Mise en Réseau",
+        "title": "Networking & Synergie Diaspora",
+        "shortDesc": "Mobilisation des compétences d’élite de la diaspora à travers le monde.",
+        "fullDesc": "Fédérer le vivier d’exception des compétences scientifiques et entrepreneuriales algériennes établies dans les plus grands écosystèmes mondiaux. Connecter organiquement ces talents aux universités nationales, startups innovantes et entreprises industrielles.",
+        "highlights": [
+          "Plateforme numérique collaborative interconnectée HCCSNE",
+          "10 Commissions de travail interactives présidées par les chefs de groupe",
+          "Programme national de mentorat doctoral et de conférences d’élite"
+        ],
+        "legalRef": "Article 6 du Décret présidentiel n° 26-293",
+        "statLabel": "Architecture",
+        "statValue": "10 Commissions Métiers"
+      },
+      {
+        "id": "evaluation",
+        "num": "04",
+        "tag": "Évaluation & Prospective",
+        "title": "Evaluation & Prospective Nationale",
+        "shortDesc": "Évaluation méthodique et feuille de route technologique pour l’Algérie.",
+        "fullDesc": "Mesurer avec précision la maturité technologique (TRL) des initiatives stratégiques nationales, évaluer les retombées socio-économiques de la recherche et formuler les feuilles de route pluriannuelles d’investissement dans l’économie de la connaissance.",
+        "highlights": [
+          "Indicateurs d’impact et benchmarking mondial des performances",
+          "Feuilles de route technologiques à horizon 2030 et 2035",
+          "Accompagnement à l’accréditation internationale des cursus"
+        ],
+        "legalRef": "Article 7 du Décret présidentiel n° 26-293",
+        "statLabel": "Horizon d’Action",
+        "statValue": "Cap 2030 — 2035"
+      }
+    ]
+  },
+  "membersSection": {
+    "title": "Collège des Membres",
+    "subtitle": "Éminentes personnalités de la diaspora scientifique algérienne",
+    "coordinator": "Coordinateur Principal",
+    "leader": "Chef de Groupe",
+    "scientific": "Membre Scientifique",
+    "viewAll": "Consulter l’annuaire complet des membres",
+    "searchPlaceholder": "Rechercher par Prof., Dr., nom, discipline, pays, institution...",
+    "spotlightBadge": "Membre vedette",
+    "selectFromDelegation": "Sélectionnez un membre dans la délégation :"
+  },
+  "domains": {
+    "title": "Pôles d’Excellence Technologique",
+    "subtitle": "10 Domaines Stratégiques pour la Souveraineté Nationale",
+    "hubLabel": "Pôle National de Souveraineté",
+    "commissionPrefix": "Commission Stratégique n°",
+    "chairedBy": "Dirigée par :",
+    "priorities": "Axes stratégiques & Projets phares :",
+    "enterRoom": "Accéder au Salon Collaboratif →",
+    "sovereignSpace": "Espace de travail souverain n°"
+  },
+  "footer": {
+    "copyright": "© 2026 HCCSNE — République Algérienne Démocratique et Populaire",
+    "address": "Siège : Alger, Algérie",
+    "description": "Organisme consultatif placé auprès de Monsieur le Président de la République.",
+    "quickLinks": "Liens rapides"
+  },
+  "auth": {
+    "loginTitle": "Connexion à l’espace membres",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "loginBtn": "Se connecter",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "registerHere": "Demander l’accès"
+  },
+  "common": {
+    "readMore": "Lire la suite",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "prev": "Précédent",
+    "next": "Suivant"
+  }
+}

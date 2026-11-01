@@ -1,0 +1,75 @@
+[
+  {
+    "id": "forum",
+    "label": "Forum",
+    "name": "Forum Scientifique",
+    "icon": "💬",
+    "color": "#006233",
+    "category": "Communication",
+    "description": "Espace d’échanges thématiques, débats et propositions scientifiques.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/forum"
+  },
+  {
+    "id": "chat",
+    "label": "Messagerie",
+    "name": "Messagerie Instantanée",
+    "icon": "📨",
+    "color": "#007A40",
+    "category": "Communication",
+    "description": "Canaux de communication directs entre membres et coordinateurs.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/chat"
+  },
+  {
+    "id": "documents",
+    "label": "Documents",
+    "name": "Bibliothèque Documentaire",
+    "icon": "📁",
+    "color": "#009950",
+    "category": "Ressources",
+    "description": "Rapports stratégiques, publications, textes officiels et archives.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/documents"
+  },
+  {
+    "id": "wiki",
+    "label": "Wiki",
+    "name": "Base de Connaissances Wiki",
+    "icon": "📝",
+    "color": "#00B862",
+    "category": "Ressources",
+    "description": "Fiches thématiques, inventaire de projets et documentation collaborative.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/wiki"
+  },
+  {
+    "id": "visio",
+    "label": "Visioconférence",
+    "name": "Visioconférence Sécurisée",
+    "icon": "🎥",
+    "color": "#D21034",
+    "category": "Collaboration",
+    "description": "Réunions plénières, séminaires virtuels et séances des commissions.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/visio"
+  },
+  {
+    "id": "rooms",
+    "label": "Commissions",
+    "name": "Commissions & Salons",
+    "icon": "👥",
+    "color": "#C8A951",
+    "category": "Collaboration",
+    "description": "Groupes de travail restreints par domaine de spécialité stratégique.",
+    "enabled": true,
+    "requiresRole": "MEMBER",
+    "href": "/dashboard/rooms"
+  }
+]
+
