@@ -39,3 +39,10 @@ next-env.d.ts
 .env
 .env.*
 !.env.example
+
+# Prisma generated clients
+/lib/prisma-client/
+/lib/prisma-client-v2/
+/lib/prisma-client-v3/
+*.db
+*.db-journal

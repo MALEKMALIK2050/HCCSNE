@@ -4,8 +4,9 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 generator client {
-  provider = "prisma-client-js"
-  output   = "../lib/prisma-client-v3"
+  provider      = "prisma-client-js"
+  output        = "../lib/prisma-client-v3"
+  binaryTargets = ["native", "debian-openssl-3.0.x", "debian-openssl-1.1.x", "rhel-openssl-1.0.x"]
 }
 
 model User {
